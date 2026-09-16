@@ -47,6 +47,7 @@ public class season {
 			break;
 		default : 
 			english = "Unknown";
+			break;
 		}
 		
 		System.out.println();
