@@ -2,9 +2,6 @@ package week02;
 
 import java.util.Scanner;
 
-// 학생 이름, 자바 점수, 파이썬 점수를 입력받아
-// 각 과목의 점수, 총점, 평균을 출력하는 프로그램
-
 public class Ex02 {
 
     public static void main(String[] args) {
