@@ -7,6 +7,7 @@ import java.util.Scanner;
 public class Twenties {
 
 	public static void main(String[] args) {
+		@SuppressWarnings("resource")
 		Scanner scanner = new Scanner(System.in);
 		
 		System.out.println("나이를 입력하시요: ");

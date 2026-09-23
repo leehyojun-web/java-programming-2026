@@ -9,6 +9,7 @@ public class BreakEx {
 		//반복적으로 명령을 입력 받아... 그대로 출력한다.
 		//단, exit가 입력되면 종료한다.
 		
+		@SuppressWarnings("resource")
 		Scanner scanner = new Scanner(System.in);
 		
 		while (true) {
