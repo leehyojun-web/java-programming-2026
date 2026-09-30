@@ -29,7 +29,7 @@ public class Ex01 {
         for (int i = 0; i < fruits.length; i++) {
             if (fruits[i].equals(input)) {
                 index = i;
-
+                break;
             }
         }
 
