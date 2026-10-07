@@ -15,17 +15,17 @@ public class Rectangle {
 	}
 	
 	// 매개변수를 모두 지정한 생성자
-	Rectangle(String n) {
+	Rectangle(String name) {
 		width = 10;
 		height = 15;
-		name = n;
+		this.name = name;
 	}
 	
-	Rectangle(int r,int h, String n) {
-		width = r;
-		height = h;
-		name = n;
-	}
+	Rectangle(int wdith,int hight, String name) {
+		this.width = width;
+		this.height = hight;
+		this.name = names;
+	}  
 	
 	double getArea() {
 		return width * height;

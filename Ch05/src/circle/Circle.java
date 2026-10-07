@@ -10,14 +10,14 @@ public class Circle {
 		
 	}
 	
-	Circle(String n) {
+	Circle(String name) {
 		radius = 10;
-		name = n;
+		this.name = name;
 	}
 	
-	Circle(int r, String n) {
+	Circle(int r, String name) {
 		radius = r;
-		name = n;
+		this.name = name;
 	}
 	
 	double getArea() {
@@ -25,8 +25,8 @@ public class Circle {
 	}
 	
 	void print() {
-		System.out.println(name);
-		System.out.println(radius);
-		System.out.println(getArea());
+		System.out.println(this.name);
+		System.out.println(this.radius);
+		System.out.println(this.getArea());
 	}
 }
